@@ -1,0 +1,46 @@
+.container {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.my_name{
+    background-color: red;
+    padding: 20px ;
+    border-radius: 10px;
+}
+
+#main-title {
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#theme_button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dark_theme {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+@media(max-width: 600px) {
+    .container {
+        background-color: lightgreen;
+    }
+    .my_name{
+            background-color: yellow;
+        }
+    
+}
